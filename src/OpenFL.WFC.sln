@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFL.WFC", "OpenFL.WFC\OpenFL.WFC.csproj", "{D01F3702-F60D-41E3-AD0D-D8D0E1C2309C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FL", "FL", "{888C288E-C2AF-4771-A704-DEB812107429}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CL", "CL", "{78EE2A0F-B608-4E74-95F1-89EB598F3309}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCL", "..\deps\OpenFL\deps\OpenCL.Wrapper\deps\OpenCL\src\OpenCL\OpenCL.csproj", "{7F5F899F-194F-49EC-8BAB-D585FE648341}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCL.Wrapper", "..\deps\OpenFL\deps\OpenCL.Wrapper\src\OpenCL.Wrapper\OpenCL.Wrapper.csproj", "{A662746D-62E7-4925-A765-DB7ADC90076D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenFL", "..\deps\OpenFL\src\OpenFL\OpenFL.csproj", "{77ED963A-A407-4426-9329-E90A84299CEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluginSystem", "..\deps\OpenFL\deps\PluginSystem\src\PluginSystem\PluginSystem.csproj", "{1795FFEF-6CF0-4431-ACFF-7D08498A0FF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utility", "..\deps\OpenFL\deps\OpenCL.Wrapper\deps\Utility\src\Utility\Utility.csproj", "{DF30F480-C1EC-44C6-8E37-FDE34F471FDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D01F3702-F60D-41E3-AD0D-D8D0E1C2309C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01F3702-F60D-41E3-AD0D-D8D0E1C2309C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01F3702-F60D-41E3-AD0D-D8D0E1C2309C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01F3702-F60D-41E3-AD0D-D8D0E1C2309C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F5F899F-194F-49EC-8BAB-D585FE648341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5F899F-194F-49EC-8BAB-D585FE648341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5F899F-194F-49EC-8BAB-D585FE648341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5F899F-194F-49EC-8BAB-D585FE648341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A662746D-62E7-4925-A765-DB7ADC90076D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A662746D-62E7-4925-A765-DB7ADC90076D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A662746D-62E7-4925-A765-DB7ADC90076D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A662746D-62E7-4925-A765-DB7ADC90076D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77ED963A-A407-4426-9329-E90A84299CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77ED963A-A407-4426-9329-E90A84299CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77ED963A-A407-4426-9329-E90A84299CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77ED963A-A407-4426-9329-E90A84299CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1795FFEF-6CF0-4431-ACFF-7D08498A0FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1795FFEF-6CF0-4431-ACFF-7D08498A0FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1795FFEF-6CF0-4431-ACFF-7D08498A0FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1795FFEF-6CF0-4431-ACFF-7D08498A0FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF30F480-C1EC-44C6-8E37-FDE34F471FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF30F480-C1EC-44C6-8E37-FDE34F471FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF30F480-C1EC-44C6-8E37-FDE34F471FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF30F480-C1EC-44C6-8E37-FDE34F471FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78EE2A0F-B608-4E74-95F1-89EB598F3309} = {888C288E-C2AF-4771-A704-DEB812107429}
+		{7F5F899F-194F-49EC-8BAB-D585FE648341} = {78EE2A0F-B608-4E74-95F1-89EB598F3309}
+		{A662746D-62E7-4925-A765-DB7ADC90076D} = {78EE2A0F-B608-4E74-95F1-89EB598F3309}
+		{77ED963A-A407-4426-9329-E90A84299CEC} = {888C288E-C2AF-4771-A704-DEB812107429}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A36DE2B-D979-4160-9AF6-284AE70D1825}
+	EndGlobalSection
+EndGlobal
