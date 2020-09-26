@@ -1,0 +1,3 @@
+name: open-fl-wfc
+target: .\src\OpenFL.WFC\bin\Debug\netstandard2.0\OpenFL.WFC.dll
+#output: .\build\open-fl-wfc.zip
