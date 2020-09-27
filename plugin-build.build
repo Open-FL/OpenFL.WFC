@@ -1,4 +1,5 @@
 name: open-fl-wfc
 target: .\src\OpenFL.WFC\bin\Debug\netstandard2.0\OpenFL.WFC.dll
 output: .\docs\latest\open-fl-wfc.zip
+origin: https://open-fl.github.io/OpenFL.WFC/latest/info.txt
 flags: INFO_TO_OUTPUT
