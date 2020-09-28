@@ -14,8 +14,6 @@ namespace OpenFL.WFC
 {
     public class WFCBufferCreatorPlugin : APlugin<BufferCreator>
     {
-        
-        public override string Name => "open-fl-wfc";
 
         public override void OnLoad(PluginAssemblyPointer ptr)
         {
@@ -38,10 +36,6 @@ namespace OpenFL.WFC
     }
     public class CLSerializers : APlugin<SerializableFLProgramSerializer>
     {
-
-
-        public override string Name => "open-fl-wfc-serializers";
-
         public override void OnLoad(PluginAssemblyPointer ptr)
         {
             base.OnLoad(ptr);
