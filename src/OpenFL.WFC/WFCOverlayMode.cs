@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Runtime.InteropServices;
 
 using Utility.ADL;
 using Utility.IO.Callbacks;
@@ -17,7 +18,7 @@ using Utility.IO.Callbacks;
 namespace OpenFL.WFC
 {
     /// <summary>
-    /// The Implementation of the Wave Collapse Function using a Training Image
+    ///     The Implementation of the Wave Collapse Function using a Training Image
     /// </summary>
     public class WFCOverlayMode : WaveFunctionCollapse
     {
@@ -339,7 +340,7 @@ namespace OpenFL.WFC
                                               ImageLockMode.WriteOnly,
                                               PixelFormat.Format32bppArgb
                                              );
-            System.Runtime.InteropServices.Marshal.Copy(bitmapData, 0, bits.Scan0, bitmapData.Length);
+            Marshal.Copy(bitmapData, 0, bits.Scan0, bitmapData.Length);
             result.UnlockBits(bits);
 
             return result;

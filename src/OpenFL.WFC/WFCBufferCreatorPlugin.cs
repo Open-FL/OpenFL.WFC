@@ -3,7 +3,6 @@ using System.Reflection;
 
 using OpenFL.Core.Buffers.BufferCreators;
 using OpenFL.Serialization.Serializers.Internal;
-using OpenFL.Serialization.Serializers.Internal.BufferSerializer;
 using OpenFL.WFC.BufferCreators;
 using OpenFL.WFC.Serializers;
 
@@ -27,15 +26,17 @@ namespace OpenFL.WFC
             {
                 if (target != ts[i] && target.IsAssignableFrom(ts[i]))
                 {
-                    ASerializableBufferCreator bc = (ASerializableBufferCreator)Activator.CreateInstance(ts[i]);
+                    ASerializableBufferCreator bc = (ASerializableBufferCreator) Activator.CreateInstance(ts[i]);
                     PluginHost.AddBufferCreator(bc);
                 }
             }
         }
 
     }
+
     public class CLSerializers : APlugin<SerializableFLProgramSerializer>
     {
+
         public override void OnLoad(PluginAssemblyPointer ptr)
         {
             base.OnLoad(ptr);

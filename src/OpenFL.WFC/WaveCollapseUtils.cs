@@ -3,7 +3,7 @@
 namespace OpenFL.WFC
 {
     /// <summary>
-    /// Utilities for the Wave Collapse Function
+    ///     Utilities for the Wave Collapse Function
     /// </summary>
     public static class WaveCollapseUtils
     {

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 
 using OpenFL.Core;
 
@@ -15,7 +16,7 @@ The software is provided "as is", without warranty of any kind, express or impli
 namespace OpenFL.WFC
 {
     /// <summary>
-    /// The Implementation of the base Wave Collapse Function
+    ///     The Implementation of the base Wave Collapse Function
     /// </summary>
     public abstract class WaveFunctionCollapse
     {
@@ -300,7 +301,7 @@ namespace OpenFL.WFC
 
         protected abstract bool OnBoundary(int x, int y);
 
-        public abstract System.Drawing.Bitmap Graphics();
+        public abstract Bitmap Graphics();
 
     }
 }

@@ -1,1 +1,1 @@
-open-fl-wfc|OpenFL.WFC.dll|https://open-fl.github.io/OpenFL.WFC/latest/info.txt|0.0.1.27|
+open-fl-wfc|OpenFL.WFC.dll|https://open-fl.github.io/OpenFL.WFC/latest/info.txt|0.0.1.28|
