@@ -36,13 +36,13 @@ namespace OpenFL.WFC.Serializers
 
             WFCParameterObject obj = new WFCParameterObject(
                                                             new SerializableFromBitmapFLBuffer(
-                                                                                               "wfc-bin",
-                                                                                               bmp,
-                                                                                               bmod,
-                                                                                               bmod.IsArray
-                                                                                                   ? s.ReadInt()
-                                                                                                   : 0
-                                                                                              ),
+                                                                 "wfc-bin",
+                                                                 bmp,
+                                                                 bmod,
+                                                                 bmod.IsArray
+                                                                     ? s.ReadInt()
+                                                                     : 0
+                                                                ),
                                                             n,
                                                             width,
                                                             height,

@@ -28,15 +28,15 @@ namespace OpenFL.WFC.BufferCreators
                                                root =>
                                                {
                                                    WFCOverlayMode wfc = new WFCOverlayMode(
-                                                                                           Parameter.SourceImage.Bitmap,
-                                                                                           Parameter.N,
-                                                                                           Parameter.Width,
-                                                                                           Parameter.Height,
-                                                                                           Parameter.PeriodicInput,
-                                                                                           Parameter.PeriodicOutput,
-                                                                                           Parameter.Symmetry,
-                                                                                           Parameter.Ground
-                                                                                          );
+                                                        Parameter.SourceImage.Bitmap,
+                                                        Parameter.N,
+                                                        Parameter.Width,
+                                                        Parameter.Height,
+                                                        Parameter.PeriodicInput,
+                                                        Parameter.PeriodicOutput,
+                                                        Parameter.Symmetry,
+                                                        Parameter.Ground
+                                                       );
                                                    if (Parameter.Force)
                                                    {
                                                        do
@@ -62,55 +62,55 @@ namespace OpenFL.WFC.BufferCreators
                                                                {
                                                                    Bitmap bmp;
                                                                    WFCOverlayMode wfc = new WFCOverlayMode(
-                                                                                                           Parameter
-                                                                                                               .SourceImage
-                                                                                                               .Bitmap,
-                                                                                                           Parameter.N,
-                                                                                                           Parameter
-                                                                                                               .Width,
-                                                                                                           Parameter
-                                                                                                               .Height,
-                                                                                                           Parameter
-                                                                                                               .PeriodicInput,
-                                                                                                           Parameter
-                                                                                                               .PeriodicOutput,
-                                                                                                           Parameter
-                                                                                                               .Symmetry,
-                                                                                                           Parameter
-                                                                                                               .Ground
-                                                                                                          );
+                                                                        Parameter
+                                                                            .SourceImage
+                                                                            .Bitmap,
+                                                                        Parameter.N,
+                                                                        Parameter
+                                                                            .Width,
+                                                                        Parameter
+                                                                            .Height,
+                                                                        Parameter
+                                                                            .PeriodicInput,
+                                                                        Parameter
+                                                                            .PeriodicOutput,
+                                                                        Parameter
+                                                                            .Symmetry,
+                                                                        Parameter
+                                                                            .Ground
+                                                                       );
                                                                    if (Parameter.Force)
                                                                    {
                                                                        do
                                                                        {
                                                                            wfc.Run(Parameter.Limit);
                                                                            bmp = new Bitmap(
-                                                                                            wfc.Graphics(),
-                                                                                            new Size(
-                                                                                                     root.Dimensions.x,
-                                                                                                     root.Dimensions.y
-                                                                                                    )
-                                                                                           ); //Apply scaling
+                                                                                wfc.Graphics(),
+                                                                                new Size(
+                                                                                     root.Dimensions.x,
+                                                                                     root.Dimensions.y
+                                                                                    )
+                                                                               ); //Apply scaling
                                                                        } while (!wfc.Success);
                                                                    }
                                                                    else
                                                                    {
                                                                        wfc.Run(Parameter.Limit);
                                                                        bmp = new Bitmap(
-                                                                                        wfc.Graphics(),
-                                                                                        new Size(
-                                                                                                 root.Dimensions.x,
-                                                                                                 root.Dimensions.y
-                                                                                                )
-                                                                                       ); //Apply scaling
+                                                                            wfc.Graphics(),
+                                                                            new Size(
+                                                                                 root.Dimensions.x,
+                                                                                 root.Dimensions.y
+                                                                                )
+                                                                           ); //Apply scaling
                                                                    }
 
 
                                                                    return new FLBuffer(
-                                                                                       root.Instance,
-                                                                                       bmp,
-                                                                                       "WFCBuffer." + Name
-                                                                                      );
+                                                                        root.Instance,
+                                                                        bmp,
+                                                                        "WFCBuffer." + Name
+                                                                       );
                                                                },
                                                                Modifiers.InitializeOnStart
                                                               );
